@@ -21,10 +21,10 @@ client.on('message', message => {
  }});
 
 client.on('message', message => {
-   if (message.content === 'brobot') {
+   if (message.content === 'botinfo') {
       message.channel.send({embed: {
-          title: "This is a BroCorp Discord bot",
-          description: "I'm testing this bot out to be awesome as fuck and do some cool shit. 100% coded using Node JS on 24/7 Heroku",
+          title: "I'm Bitchell, the BroCorp Discord bot",
+          description: "My job is to doing absolutely fucking nothing and look somewhat similar to the Mesaiah, Jesus Christ. My one rule is to always remind my friends to FUCK DEVON! Have a wonderful day.",
           url: "https://brocorp.io/",
           color: 15277667,
           thumbnail: {
