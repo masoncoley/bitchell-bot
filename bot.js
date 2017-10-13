@@ -20,11 +20,11 @@ client.on('message', message => {
 
 client.on('message', message => {
    if (message.content === 'testing') {
-      message.reply('{embed: {
+      message.reply({embed: {
          color: 3447003,
          description: "A very simple Embed!"
                     }
-   }')
+   })
  }});
 
 // THIS MUST BE THIS WAY
