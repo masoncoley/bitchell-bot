@@ -23,18 +23,18 @@ client.on('message', message => {
 client.on('message', message => {
    if (message.content === 'testing') {
       message.channel.send({embed: {
-  "title": "title ~~(did you know you can have markdown here too?)~~",
-  "description": "this supports [named links](https://discordapp.com) on top of the previously shown subset of markdown. ```\nyes, even code blocks```",
-  "url": "https://discordapp.com",
-  "color": 3956593,
-  "timestamp": "2017-10-13T06:51:28.649Z",
-  "footer": {
-    "icon_url": "https://cdn.discordapp.com/embed/avatars/0.png",
-    "text": "footer text"
-  },
-  "thumbnail": {
-    "url": "https://cdn.discordapp.com/embed/avatars/0.png"
-  }
+          title: "title ~~(did you know you can have markdown here too?)~~",
+          description: "this supports [named links](https://discordapp.com) on top of the previously shown subset of markdown. ```\nyes, even code blocks```",
+          url: "https://discordapp.com",
+          color: 3956593,
+          timestamp: "2017-10-13T06:51:28.649Z",
+          footer: {
+          icon_url: "https://cdn.discordapp.com/embed/avatars/0.png",
+          text: "footer text"
+                  },
+          thumbnail: {
+          url: "https://cdn.discordapp.com/embed/avatars/0.png"
+                     }}
    })
  }});
 
