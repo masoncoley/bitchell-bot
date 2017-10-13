@@ -21,19 +21,14 @@ client.on('message', message => {
  }});
 
 client.on('message', message => {
-   if (message.content === 'testing') {
+   if (message.content === 'brobot') {
       message.channel.send({embed: {
           title: "This is a BroCorp Discord bot",
           description: "I'm testing this bot out to be awesome as fuck and do some cool shit. 100% coded using Node JS on 24/7 Heroku",
           url: "https://brocorp.io/",
           color: 15277667,
-          timestamp: "2017-10-13T06:51:28.649Z",
-          footer: {
-          icon_url: "https://cdn.discordapp.com/embed/avatars/0.png",
-          text: "footer text"
-                  },
           thumbnail: {
-          url: "https://cdn.discordapp.com/embed/avatars/0.png"
+          url: "http://masoncoley.com/wp-content/uploads/2017/05/10012484_816736341675454_1800625882_n.png"
                      }}
    })
  }});
