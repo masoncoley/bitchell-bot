@@ -13,7 +13,7 @@ client.on('message', message => {
 
 client.on('message', message => {
    if (message.content === 'mahon') {
-      message.reply('mahon');
+      message.reply(':pray: mahon :pray:');
    }
 });
 
