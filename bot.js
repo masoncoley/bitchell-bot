@@ -13,16 +13,9 @@ client.on('message', message => {
 
 client.on('message', message => {
    if (message.content === 'mahon') {
-      message.reply(':pray: mahon :pray:');
-   }
-});
-
-
-client.on('message', message => {
-   if (message.content === 'testing') {
       message.reply({embed: {
          color: 3447003,
-         description: "A very simple Embed!"
+         description: ":pray: mahon :pray:"
                     }
    })
  }});
