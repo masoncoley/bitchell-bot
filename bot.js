@@ -33,7 +33,7 @@ client.on('message', message => {
    if (message.content === 'botinfo') {
       message.channel.send({embed: {
           title: "I'm Bitchell, the BroCorp Discord bot",
-          description: "My job is to doing absolutely fucking nothing and look somewhat similar to the Mesaiah, Jesus Christ. My one rule is to always remind my friends to FUCK DEVIN! Have a wonderful day.",
+          description: "My job is to do absolutely fucking nothing and look somewhat similar to the Mesaiah, Jesus Christ. My one rule is to always remind my friends to FUCK DEVIN! Have a wonderful day.",
           url: "https://brocorp.io/",
           color: 15277667,
           thumbnail: {
