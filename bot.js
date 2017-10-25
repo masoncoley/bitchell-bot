@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on("ready", () => {
-    client.user.setPresence({game: {name: "with my code", type: 0}});
+    client.user.setPresence({game: {name: "!help for help", type: 0}});
 });
 
 client.on('message', message => {
