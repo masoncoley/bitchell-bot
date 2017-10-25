@@ -5,6 +5,10 @@ client.on('ready', () => {
    console.log('I am ready!');
 });
 
+client.on('ready', () => {
+   client.user.setGame('Going On BroVentures');
+});
+
 client.on('message', message => {
    if (message.content === 'ping') {
       message.reply('pong');
