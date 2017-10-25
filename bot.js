@@ -33,5 +33,33 @@ client.on('message', message => {
    })
  }});
 
+client.on('message', message => {
+   if (message.content === 'help') {
+      message.channel.send({embed: {
+      "fields": [
+      {
+        "name": "!rank",
+        "value": "Display server rank"
+      },
+      {
+        "name": "!levels",
+        "value": "View full rank list"
+      },
+      {
+        "name": "!ea",
+        "value": "Get link to FREE training course"
+      },
+      {
+        "name": "mahon",
+        "value": "Call for group prayer"
+      },
+      {
+        "name": "botinfo",
+        "value": "Learn about Bitchell[BOT]"
+      }]
+      }
+   })
+ }});
+
 // THIS MUST BE THIS WAY
 client.login(process.env.BOT_TOKEN);
