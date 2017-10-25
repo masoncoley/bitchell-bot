@@ -5,7 +5,9 @@ client.on('ready', () => {
    console.log('I am ready!');
 });
 
-client.User.setGame('#Help for help');
+client.on("ready", () => {
+    client.user.setGame("with my code");
+});
 
 client.on('message', message => {
    if (message.content === 'ping') {
