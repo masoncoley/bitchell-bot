@@ -21,6 +21,15 @@ client.on('message', message => {
  }});
 
 client.on('message', message => {
+   if (message.content === 'Mahon') {
+      message.channel.send({embed: {
+         color: 3447003,
+         description: ":pray: mahon :pray:"
+                    }
+   })
+ }});
+
+client.on('message', message => {
    if (message.content === 'botinfo') {
       message.channel.send({embed: {
           title: "I'm Bitchell, the BroCorp Discord bot",
