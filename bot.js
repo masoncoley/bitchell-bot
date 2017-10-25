@@ -36,6 +36,7 @@ client.on('message', message => {
 client.on('message', message => {
    if (message.content === 'help') {
       message.channel.send({embed: {
+      color: 15277667,
       "fields": [
       {
         "name": "!rank",
