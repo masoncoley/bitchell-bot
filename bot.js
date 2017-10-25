@@ -3,8 +3,9 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
    console.log('I am ready!');
-   client.user.setGame('Going On BroVentures');
 });
+
+client.User.setGame('#Help for help');
 
 client.on('message', message => {
    if (message.content === 'ping') {
