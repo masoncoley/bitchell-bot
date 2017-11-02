@@ -75,5 +75,16 @@ client.on('message', message => {
    })
  }});
 
+client.on('message', message => {
+   if (message.content === '!welcome') {
+      message.channel.send({embed: {
+          title: "Welcome to the BroCorp Discord",
+          description: "[INSERT WELCOME MESSAGE HERE.]",
+          url: "https://brocorp.io/",
+          color: 15277667,
+          }
+   })
+ }});
+
 // THIS MUST BE THIS WAY
 client.login(process.env.BOT_TOKEN);
